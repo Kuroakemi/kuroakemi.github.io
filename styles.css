@@ -2,16 +2,29 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+
+/* ist eine ganze box im hintergund hinter den elementen*/
+
 .flexbox {
     width: 90%;
     margin: 5%;
     background: rgb(0, 128, 255);
 }
 
+
+/*die elemente selbst. margin ist der seitenabstand zum rand und padding von oben und unten*/
+
 .flexboxelement {
     background: rgb(71, 77, 83);
     color: snow;
     text-align: center;
     margin: 3%;
-    padding: 15% 20% 15% 20%;
+    padding: 2% 0% 2% 0%;
+    width: 10%;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
 }
