@@ -14,7 +14,7 @@ body {
 
 /*die elemente selbst. margin ist der seitenabstand zum rand und padding von oben und unten*/
 
-.flexboxelement {
+.flexelement {
     background: rgb(71, 77, 83);
     color: snow;
     text-align: center;
