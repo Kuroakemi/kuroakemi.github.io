@@ -1,0 +1,18 @@
+// comments syntax
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.flexbox {
+    width: 90%;
+    margin: 5%;
+    background: rgb(0, 128, 255);
+}
+
+.flexboxelement {
+    background: rgb(71, 77, 83);
+    color: snow;
+    text-align: center;
+    margin: 3%;
+    padding: 15% 20% 15% 20%;
+}
