@@ -26,5 +26,5 @@ body {
 .flexbox {
     display: flex;
     flex-direction: row;
-    justify-content: ;
+    justify-content: center;
 }
