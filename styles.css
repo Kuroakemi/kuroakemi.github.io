@@ -5,7 +5,7 @@ body {
 
 /* ist eine ganze box im hintergund hinter den elementen*/
 
-.flexbox {
+.flexbox-container {
     width: 90%;
     margin: 5%;
     background: rgb(0, 128, 255);
@@ -14,7 +14,7 @@ body {
 
 /*die elemente selbst. margin ist der seitenabstand zum rand und padding von oben und unten*/
 
-.flexelement {
+.flex-box {
     background: rgb(71, 77, 83);
     color: snow;
     text-align: center;
