@@ -1,0 +1,65 @@
+/*für was isch das?*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+ /*https://fonts.google.com/ für schrift*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #5d4956;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-links{
+ display: flex;
+ justify-content: space-around;
+ width: 30%;
+}
+
+.nav-links a{
+    color: floralwhite;
+    text-decoration: none;
+    letter-spacing: normal;
+    font-weight: lighter;
+    font-size: large;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.PK{
+    color: floralwhite;
+    text-decoration: none;
+    letter-spacing: normal;
+    font-weight: lighter;
+    font-size: x-large;
+    
+    
+}
+
+.burger div{
+    background-color: floralwhite;
+    width: 20px;
+    height: 1px;
+    margin: 5px;
+}
+
+.burger{
+    display: none;
+}
+
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 50%;
+    }
+}
