@@ -17,6 +17,7 @@ nav{
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: brown;
 }
 
 .nav-links{
@@ -71,24 +72,24 @@ body{
 
 
 @media screen and (max-width:768px){
-    body{
-       /* overflow-x: hidden;*/
-    }
+    /*body{
+        overflow-x: hidden;
+    }*/
     .nav-links{
         position:absolute;
         right: 0px;
         height: 92vh;
         top: 8vh;
         background-color: #5d4956;
-        display: flex;
-        flex-direction: column; /* platziert untereinander*/
+        background: linear-gradient(90deg, rgba(121,102,114,1) 0%, rgba(121,102,114,1) 5%, rgba(111,92,104,1) 10%, rgba(102,82,95,1) 15%, rgba(93,73,86,1) 20%, rgba(93,73,86,1) 25%, rgba(93,73,86,1) 35%, rgba(93,73,86,1) 40%, rgba(93,73,86,1) 45%, rgba(93,73,86,1) 50%, rgba(93,73,86,1) 55%, rgba(93,73,86,1) 60%, rgba(93,73,86,1) 65%, rgba(93,73,86,1) 70%, rgba(93,73,86,1) 75%, rgba(99,80,93,1) 85%, rgba(106,88,100,1) 90%, rgba(112,94,106,1) 95%, rgba(112,94,106,1) 100%);        flex-direction: column; /* platziert untereinander*/
         align-items: center;
-        width: 75%;
+        width: 80%;
        /* transform: translateX(100%); */
         /* box-shadow: 20px 20px 80px 35px grey;  */
-        box-shadow: 90deg, rgba(227,218,224,0.11248249299719892) 0%, rgba(180,166,175,1) 35%, rgba(93,73,86,1) 100%;;
+       
 
     }
+    
     .burger{
         display: block;
     }
