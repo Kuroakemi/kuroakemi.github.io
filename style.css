@@ -31,6 +31,7 @@ body{
     letter-spacing: normal;
     font-weight: lighter;
     font-size: large;
+    padding: 0.5em;
 }
 
 .nav-links li{
@@ -56,27 +57,40 @@ body{
 
 .burger{
     display: none;
+    cursor: pointer;
 }
 
-/*
+
 @media screen and (max-width:1024px){
     .nav-links{
         width: 25%;
     }
 }
-*/
+
 
 
 
 @media screen and (max-width:768px){
+    body{
+       /* overflow-x: hidden;*/
+    }
     .nav-links{
-        position: absolute;
+        position:absolute;
         right: 0px;
         height: 92vh;
         top: 8vh;
         background-color: #5d4956;
         display: flex;
         flex-direction: column; /* platziert untereinander*/
-        justify-content: center; /* Platziert danach alles in der mitte*/
+        align-items: center;
+        width: 75%;
+       /* transform: translateX(100%); */
+        /* box-shadow: 20px 20px 80px 35px grey;  */
+        box-shadow: 90deg, rgba(227,218,224,0.11248249299719892) 0%, rgba(180,166,175,1) 35%, rgba(93,73,86,1) 100%;;
+
     }
+    .burger{
+        display: block;
+    }
+
 }
