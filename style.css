@@ -100,7 +100,7 @@ body{
 
 
 
-
+/*
 body{
 	background:#36465E;
 }
@@ -113,7 +113,7 @@ body{
 	width:100px;
 	height: 100px;
 	background:rgb(255, 255, 255);
-	/*border-radius:1%;*/
+	border-radius:1%;
 	animation: cat-transform 3s;
 }
 
@@ -363,3 +363,4 @@ body{
 	}
 }
 
+*/
